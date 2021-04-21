@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@core/*": [
+        "website/core/*"
+      ],
+      "@layouts/*": [
+        "website/layouts/*"
+      ],
+      "@project/*": [
+        "website/project/*"
+      ],
+      "@components/*": [
+        "website/base_components/*"
+      ],
+      "@constants/*": [
+        "libs/js/constants/*"
+      ],
+      "@function/*": [
+        "libs/js/function/*"
+      ],
+      "@redux/*": [
+        "libs/js/redux/*"
+      ],
+      "@translate/*": [
+        "libs/js/translate/*"
+      ],
+      "@assets/*": [
+        "libs/assets/*"
+      ]
+    }
+  },
+  "exclude": [
+    "backup",
+    "certs",
+    "database",
+    "mobile",
+    "docker",
+    "document",
+    "logs",
+    "node_modules",
+    "build"
+  ]
+}

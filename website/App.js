@@ -1,10 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import withAuthorize from './layout/Authorization';
+import Task from './pages/Task';
+import BasicLayout from './layout/BasicLayout'
 
-const App = ({ title }) => <div>{title}</div>;
+const App = () => <BasicLayout><Task /></BasicLayout>; // need router-view
 
-App.propTypes = {
-  title: PropTypes.string.isRequired,
-};
-
-export default App;
+export default withAuthorize(App);

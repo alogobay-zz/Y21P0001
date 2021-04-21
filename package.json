@@ -300,7 +300,6 @@
         "football-data-api": "^0.1.4",
         "football-data-v2": "^1.0.2",
         "fs-extra": "^9.1.0",
-        "fsevents": "^2.3.2",
         "geoip-country": "^4.0.54",
         "helmet": "^4.4.1",
         "http-proxy-middleware": "^1.0.6",
